@@ -19,6 +19,6 @@ nav a{font-size: 24px;
 color: whitesmoke;
 font-weight: bold;}
 
-nav a :hover{text-align: none;}
+nav a :hover{text-align: center;}
 
 h1,h2,h3,footer{text-align: center;}
