@@ -57,7 +57,7 @@ color: white;
 }
 
 #banner {
-    width: 75%;
+    width: 65%;
     }
      .heading_style{
         text-shadow: 5px 5px 5px #000;
@@ -80,10 +80,22 @@ color: white;
         width: 50%;
         border: 2px solid white;
         margin: 20px;
-        border: 20px;
+        padding: 20px;
      }
 
 
-     #two_col{
-        display: flex;
-    }
+     .multi_col{
+        display:flex;
+     }
+    
+     .video_align{ 
+        display: block;
+        margin: 0 auto;
+     }
+     .col{  
+        width: 50%;
+        border: 2px solid white;
+        margin: 20px;
+        padding: 20px;
+
+     }
