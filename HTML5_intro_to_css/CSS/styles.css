@@ -34,4 +34,56 @@ nav li a {display: block;
     margin: 0 20px;
 }
 
-h1,h2,h3,footer{text-align: center;}
+h1,h2,h3,footer{text-align: center;
+    color: yellow;}
+    
+    p {
+        color: white;
+    }
+     ul li {
+    color: white;
+    }
+    
+    #banner {
+        width: 65%;
+        }
+         .heading_style{
+            text-shadow: 5px 5px 5px #000;
+            font-size: xx-large;
+         }
+    
+         .movie_post {
+            width: 40%;
+            
+         }
+    
+         #col1{
+            width: 50%;
+            border: 2px solid white;
+            margin: 20px;
+            padding: 20px;
+         }
+    
+         #col2{
+            width: 50%;
+            border: 2px solid white;
+            margin: 20px;
+            padding: 20px;
+         }
+    
+    
+         .multi_col{
+            display:flex;
+         }
+        
+         .video_align{ 
+            display: block;
+            margin: 0 auto;
+         }
+         .col{  
+            width: 50%;
+            border: 2px solid white;
+            margin: 20px;
+            padding: 20px;
+    
+         }
