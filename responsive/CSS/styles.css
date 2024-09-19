@@ -1,0 +1,160 @@
+/* Global Style */
+
+body {
+   background-color: black;
+}
+
+img {
+   display: block;
+   margin: 0 auto;
+   width: 100%;
+}
+
+
+
+.video_align{
+   display: block;
+   margin: 0 auto;
+   width: 100%;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+
+nav{
+   background-color: black;
+   padding: 5px;
+   margin-top: 10px;
+   text-align: center;
+   
+}
+nav ul{
+   list-style-type: none;
+   padding: 0;
+   }
+
+   nav li{
+      display: block;
+      
+   }
+   
+   nav li a {
+      display: block;
+      color: white;
+      height: 30px;
+      line-height: 40px;
+      background-color: black;
+      font-size: 21px;
+      text-decoration: none;
+      margin-top: 5px;
+   }
+   nav li a:hover{
+
+    background-color: blue;
+}
+
+main{
+   padding: 20px;
+}
+
+h1,h2,h3{
+   color: yellow;
+   text-align: center;
+   text-shadow: 1px 1px 1px white;
+}
+ 
+p{
+   color: white;
+}
+
+ul{
+   color: white;
+}
+
+footer{
+   text-align: center;
+   color: white;
+   padding: 40px;
+}
+
+}
+/* Tablet Styles */
+
+@media (min-width: 768px){
+
+nav li{
+   display: inline-block;
+}
+
+nav li a{
+   width: 125px;
+   height: 50px;
+   line-height: 50px;
+   margin: 5px;
+}
+
+.movie_post {
+   width: 50%;
+}
+
+.video_align{
+   width: 50%;
+}
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px){
+
+#container{
+   width: 65%;
+   margin: 20px auto;
+   border: 5px solid black;
+   border-radius: 20px;
+}
+
+nav{
+   padding: 0;
+   
+}
+
+nav li a{
+   background-color: black;
+}
+
+.movie_post {
+   width: 100%;
+}
+
+.video_align{
+   width: 100%;
+}
+img {
+   display: block;
+   margin: 0 auto;
+   width: 50%;
+}
+
+hr{
+   display: 2px;
+}
+
+.multi_col {
+   display: flex;
+}
+
+.col{
+margin: 20px;
+padding: 20px;
+border: 2px solid white;
+
+
+}
+
+
+
+}
+
+
+
