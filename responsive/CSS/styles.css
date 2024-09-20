@@ -137,7 +137,8 @@ img {
 }
 
 hr{
-   display: 5%;
+   display: block;
+   padding: 5%;
 }
 
 .multi_col {
