@@ -4,8 +4,6 @@
 <li><a href="HTML5_intro_to_css/index.html">HTML5 and Intro to CSS</a></li>
 <li><a href="adv_css/index.html">Advanced CSS</a></li>
 <li><a href="responsive/index.html">The Force</a><li>
-
-
 <li><a href="Final_Project/index.html">The Batman</a><li>
 </ul>
 
