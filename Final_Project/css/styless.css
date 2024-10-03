@@ -109,6 +109,17 @@ img {
     color: white;
     padding: 40px;
  }
+ .multi_col {
+    display: flex;
+ }
+ 
+ .col{
+ margin: 20px;
+ padding: 20px;
+ border: 2px solid white;
+ 
+ 
+ }
  
  }
  /* Tablet Styles */
@@ -132,6 +143,17 @@ img {
  
  .video_align{
     width: 50%;
+ }
+ .multi_col {
+    display: flex;
+ }
+ 
+ .col{
+ margin: 20px;
+ padding: 20px;
+ border: 2px solid white;
+ 
+ 
  }
  }
  
@@ -192,7 +214,10 @@ img {
  }
 
 
-
+ nav li a:hover{
+ 
+    background-color: yellow;
+}
  
  
  }
