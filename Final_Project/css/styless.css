@@ -2,25 +2,30 @@
 
 body {
     background-color: black;
-     
- }
- 
- #container{
-     
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-image: url(../images/dirty.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#container{
+
     background-color: gray;
-    width: 1200px;
+    width: 100%;
     margin: 20px auto;
-    border: 2px solid white;
-    padding: 25px;
-     }
+    border: 4px gray;
+    padding: 8px;
 
+}
 
-
-
- img {
+img {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 75%;
  }
  
  
@@ -31,40 +36,36 @@ body {
     width: 100%;
  }
 
- 
+ .pic_post{
+    width: 50%;
+ }
  
  /* Mobile Styles */
  
  @media (min-width: 320px) {
+
+    
  
-
-    #container{
-     
-        background-color: gray;
-        width: 1200px;
-        margin: 20px auto;
-        border: 2px solid white;
-        padding: 25px;
-         }
-
  nav{
     background-color: black;
     padding: 5px;
     margin-top: 10px;
     text-align: center;
     
+    
  }
-nav ul{
+ nav ul{
     list-style-type: none;
     padding: 0;
+    
     }
  
-nav li{
+    nav li{
        display: block;
        
     }
     
-nav li a {
+    nav li a {
        display: block;
        color: white;
        height: 30px;
@@ -73,6 +74,7 @@ nav li a {
        font-size: 21px;
        text-decoration: none;
        margin-top: 5px;
+       font-style: italic;
     }
     nav li a:hover{
  
@@ -87,13 +89,16 @@ nav li a {
     color: black;
     text-align: center;
     text-shadow: 1px 1px 1px white;
-    font-size: xx-large;
+    font-size: x-large;
+    font-style: italic;
+    
  }
   
  p{
     color: white;
-    font-size: large;
+    font-style: italic;
  }
+
  
  ul{
     color: white;
@@ -110,106 +115,52 @@ nav li a {
  
  @media (min-width: 768px){
  
-    #container{
-     
-        background-color: gray;
-        width: 1200px;
-        margin: 20px auto;
-        border: 2px solid white;
-        padding: 25px;
-         }
-    
-
- nav{
-    background-color: black;
-    padding: 5px;
-    margin-top: 10px;
-    text-align: center;
-    
- }
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    }
- 
-nav li{
-       display: block;
-       
-    }
-    
-nav li a {
-       display: block;
-       color: white;
-       height: 30px;
-       line-height: 40px;
-       background-color: black;
-       font-size: 21px;
-       text-decoration: none;
-       margin-top: 5px;
-    }
-    nav li a:hover{
- 
-     background-color: black;
+ nav li{
+    display: inline-block;
  }
  
+ nav li a{
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+ }
  
  .pic_post {
-    width: 50%;
+    width: 100%;
  }
  
  .video_align{
     width: 50%;
  }
-}
+ }
  
  /* Desktop Styles */
  
  @media (min-width: 1024px){
-   
+
+ 
+
     #container{
-     
-        background-color: gray;
-        width: 1200px;
-        margin: 20px auto;
-        border: 2px solid white;
-        padding: 25px;
-         }
+       width: 65%;
+       margin: 20px auto;
+       border: 3px solid white;
+       border-radius: 20px;
+    }
+ 
     
+ 
+ 
  nav{
-    background-color: black;
-    padding: 5px;
-    margin-top: 10px;
-    text-align: center;
-    
- }
-nav ul{
-    list-style-type: none;
     padding: 0;
-    }
- 
-nav li{
-       display: block;
-       
-    }
     
-nav li a {
-       display: block;
-       color: white;
-       height: 30px;
-       line-height: 40px;
-       background-color: black;
-       font-size: 21px;
-       text-decoration: none;
-       margin-top: 5px;
-    }
-    .navbar li a:hover{
- 
-     background-color: yellow;
  }
  
+ nav li a{
+    background-color: black;
  }
  
- .pic_post  {
+ .pic_post {
     width: 50%;
  }
  
@@ -224,7 +175,8 @@ nav li a {
  
  hr{
     display: block;
-    padding: 0%;
+    padding: 2%;
+    
  }
  
  .multi_col {
@@ -238,10 +190,9 @@ nav li a {
  
  
  }
- 
- 
- 
- 
- 
+
+
 
  
+ 
+ }
